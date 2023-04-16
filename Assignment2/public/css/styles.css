@@ -1,0 +1,54 @@
+
+.logo{
+    width: 105px;
+    height: 40px;
+}
+.btn {
+    border:none;
+    color: black;
+}
+a{
+    text-decoration: none;
+}
+.foot1{
+    background-color: lightgray;
+}
+.img{
+    width:60%;
+    height:90%;
+}
+.margin{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.main{
+    background-image: url(/Assets/back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bl{
+    color: rgb(3, 3, 159);
+}
+.or{
+    color: rgb(224, 147, 2);
+}
+.clr{
+background: #DDC45D;
+background: -webkit-linear-gradient(top left, #DDC45D, #1B0ED4);
+background: -moz-linear-gradient(top left, #DDC45D, #1B0ED4);
+background: linear-gradient(to bottom right, #DDC45D, #1B0ED4);
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+.dropdown-toggle::after {
+    display: none;
+  }
+  /* .dropdown {
+    position:static !important;
+}
+.dropdown-menu {
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15)!important;
+    margin-top:0px !important;
+    width:100% !important;
+} */

@@ -1,12 +1,328 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="file.js"></script>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <title>Sapphire</title>
 </head>
 <body>
-    
+    <div class="container-fluid text-center bg-dark text-white">
+        Last day to place your orders for delivery before Eid for International: 11th April, local: 17th April, Lahore: 18th April
+    </div>
+
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#" id="logo">
+            <img src="./assets/logo.svg" alt="" style="width: 150px;">
+          </a>
+          <div class="container" id="navbarSupportedContent">
+            <form role="search" style="padding-left: 100px;">
+              <input class="form-control me-2" type="search" placeholder="Find your favourites" aria-label="Search" style="padding-left: 20px; width: 400px;">
+              <!-- <a href="#" class="fa-solid fa-magnifying-glass" style="color: black;"><i class="fa-solid fa-magnifying-glass"></i></a> -->
+            </form>
+          </div>
+          <div class="conatiner d-flex">
+            <a href="#" style="padding: 10px;">
+                <img src="./assets/truck-solid.svg" alt="" style="width: 20px;">
+              </a>
+              <a href="#" style="padding: 10px;">
+                <img src="./assets/calendar-days-solid.svg" alt="" style="width: 20px;">
+              </a>
+              <a href="#" style="padding: 10px;">
+                <img src="./assets/user-solid.svg" alt="" style="width: 20px;">
+              </a>
+          </div>
+        </div>
+        <br>
+
+        <hr>
+        <br>
+      </nav>
+
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://img.segmentify.com/6d05f4f0-ad7c-4e88-bf62-6380dff497a6/u/ecf863a1-67b1-4efc-bcc9-6f5fc8601a00.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://img.segmentify.com/5c571072-068e-40c5-8dbc-d8448158de19/u/739a6b55-ad8b-4c7e-ae76-b810b28232de.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://img.segmentify.com/5c571072-068e-40c5-8dbc-d8448158de19/u/91600f13-2aba-401d-ae9e-fbaf0c7515a9.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <div class="container text-center">
+        <br>
+        <h2>SHOP BY CATEGORY</h2><hr>
+        <br>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card" style="width: 20rem; border: none;">
+                    <img src="https://cdn.shopify.com/s/files/1/1592/0041/files/US-4shop-by-category.jpg?v=1678963376&width=400" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h3 class="card-text">Unstitched</h3>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card" style="width: 20rem; border: none;">
+                    <img src="https://cdn.shopify.com/s/files/1/1592/0041/files/RTW-2shop-by-category_4225a9c1-778f-47ee-b262-58362e2e3b9f.jpg?v=1680173868&width=400" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3 class="card-text">Ready To Wear</h3>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card" style="width: 20rem; border: none;">
+                    <img src="https://cdn.shopify.com/s/files/1/1592/0041/files/menswear-shop-by.jpg?v=1679481859&width=400" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3 class="card-text">Man</h3>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card" style="width: 20rem; border: none;">
+                    <img src="https://cdn.shopify.com/s/files/1/1592/0041/files/Home-shop-by-category_5230fe59-3413-4b9d-84e8-e80d8940a496.jpg?v=1681383163&width=400" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3 class="card-text">Home</h3>
+                    </div>
+                  </div>
+            </div>
+            
+        </div>
+        <br>
+      </div>
+
+      <div class="container text-center">
+        <br>
+        <h2>Trending</h2><hr>
+        <br>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card" style="width: 20rem; border: none;">
+                    <img src="https://cdn.shopify.com/s/files/1/1592/0041/products/0MSTE2P23V26_4.jpg?v=1679399245&width=400" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h4 class="card-text">Embroidered Wash and Wear suit</h4>
+                      <p>RS 5,990.00</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card" style="width: 20rem; border: none;">
+                    <img src="https://cdn.shopify.com/s/files/1/1592/0041/products/00MST2P23V37_2.jpg?v=1679399417&width=400" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h4 class="card-text">Summer Wash and Wear suit</h4>
+                      <p>RS 5,490.00</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card" style="width: 20rem; border: none;">
+                    <img src="https://cdn.shopify.com/s/files/1/1592/0041/products/00MSTKR23V32_4.jpg?v=1679398771&width=400" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h4 class="card-text">Cotton Kurta</h4>
+                        <p>RS 3,990.00</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card" style="width: 20rem; border: none;">
+                    <img src="https://cdn.shopify.com/s/files/1/1592/0041/products/0MSTEKR23V35_3.jpg?v=1679398983&width=400" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h4 class="card-text">Embroidered Cotton Kurta</h4>
+                      <p>RS 5,490.00</p>
+                    </div>
+                  </div>
+            </div>
+            
+        </div>
+        <br>
+      </div>
+
+      <div class="container text-center">
+        <br>
+        <h2>More To Explore</h2><hr>
+        <br>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card" style="width: 20rem; border: none;">
+                    <img src="https://cdn.shopify.com/s/files/1/0679/2537/7300/files/fabric-more-to-explore.jpg?v=1676047152" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card" style="width: 20rem; border: none;">
+                    <img src="https://cdn.shopify.com/s/files/1/1592/0041/files/eid-bundles-more-to-explore.jpg?v=1681113953" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card" style="width: 20rem; border: none;">
+                    <img src="https://cdn.shopify.com/s/files/1/1592/0041/files/more-to-explore.jpg?v=1680083341" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        
+                    </div>
+                  </div>
+            </div>
+            
+        </div>
+        <br>
+      </div>
+
+      <div class="container-fluid text-center" style="background-color: bisque;">
+        <br>
+        <h2>Styled By You</h2>
+        <br>
+        <p>#SAPPHIREXME</p>
+        <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card" style="width: 20rem; border: none;">
+                    <img src="https://cdn.shopify.com/s/files/1/1592/0041/files/rubina-styled-by-you.jpg?v=1680085952&width=800" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h4>Rubina</h4>
+                      <p>Wearing dyed embroidered cotton dobby suit</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card" style="width: 20rem; border: none;">
+                    <img src="https://cdn.shopify.com/s/files/1/1592/0041/files/Nimal-styled-by-you.jpg?v=1680085952&width=800" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h4>Naimal</h4>
+                        <p>Wearing dyed embroidered crinkle chiffon suit</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card" style="width: 20rem; border: none;">
+                    <img src="https://cdn.shopify.com/s/files/1/1592/0041/files/sajal-styled-by-you.jpg?v=1680085952&width=800" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h4>Sajal Aly</h4>
+                      <p>Wearing dyed embroidered lawn suit</p>
+                    </div>
+                  </div>
+            </div>
+            
+            
+        </div>
+        <br>
+    </div>
+      </div>
+      <br><br>
+
+      <footer class="text-center text-lg-start bg-light">
+        </section>
+        
+        <section class="foot1">
+            <br>
+          <div class="container text-center text-md-start text-dark">
+            <div class="row">
+              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                <p><i class="fas fa-home me-3 text-secondary"></i>Sapphire Retail Head Office
+                    1.5-Km, Defence Road, Bhobtian Chowk, Off Raiwind Road, Opposite University of Lahore, Lahore.</p>
+                <p>
+                  <i class="fas fa-envelope me-3 text-secondary"></i>
+                  wecare@sapphireonline.pk
+                </p>
+                <p><i class="fas fa-phone me-3 text-secondary"></i>+92(0)42 111-738-245</p>
+              </div>
+              <!-- Grid column -->
+      
+              <!-- Grid column -->
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 mt-2">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  Customer Care
+                </h6>
+                <p>
+                  <a href="#!" class="text-reset">Exchanges & Returns</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">FAQs</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Contact Us</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Payments
+                </a>
+                </p>
+                <p>
+                    <a href="#!" class="text-reset">Track Your Order
+                  </a>
+                  </p>
+              </div>
+            
+              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                
+                <h6 class="text-uppercase fw-bold mb-4 mt-2">
+                    INFORMATION
+                </h6>
+                <p>
+                  <a href="#!" class="text-reset">About Us</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Privacy Policy</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Store Locator</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">SafePay Guide</a>
+                </p>
+              </div>
+          
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 mt-2">
+              
+                <h6 class="text-uppercase fw-bold mb-4">NEWSLETTER SIGNUP</h6>
+                <p>Subscribe to our Newsletter for Exclusive Updates</p>
+                <p>
+                    <input class="form-control me-2" type="search" placeholder="Your Email Address" aria-label="Search" >
+                </p>
+                <p>
+                    WhatsApp Signup</p>
+                <p>Subscribe to get exclusive updates on the latest trends, new arrivals, and sales via WhatsApp!</p>
+                <p>
+                    <input class="form-control me-2" type="search" placeholder="Your Phone Number" aria-label="Search" >
+                </p>
+              </div>
+           
+            </div>
+       
+          </div>
+        </section>
+      </footer><br>
+      <p class="text-center">Copyright © 2023 Sapphire all rights reserved.</p>
+
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
 </body>
 </html>

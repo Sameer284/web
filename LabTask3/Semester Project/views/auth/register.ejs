@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="/css/styles.css">
+        <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+  </head>
+  <body style="background-image: url(/Assets/back.jpg); background-repeat: no-repeat;
+  background-size: cover;">
+<div  >
+    <div class="container margin">
+        <div class="row justify-content-center">
+            <div class="col-md-6 mt-5">
+    <div class="card">
+        <div class="card-header bg-light d-flex align-items-center">
+            <img src="/Assets/ms.png"  class="logo" alt="">
+            <h4 class="ml-4"> <span class="bl">Sign-up</span> <span class="or">Form</span></h4>
+          </div>
+        <div class="card-body clr">
+          <form class="needs-validation"action="" method="post">
+            <div class="form-group text-white">
+              <label for="validationServer01">Name</label>
+              <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name" required>
+            </div>
+            <div class="form-group text-white">
+              <label for="validationServer01">Email address</label>
+              <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp" placeholder="Enter email" required>
+              <small id="emailHelp" class="form-text  text-white">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group text-white">
+              <label for="validationServer01">Password</label>
+              <input type="password" class="form-control" id="password" name="password" placeholder="Password" required>
+            </div>
+            <div class="form-group text-white">
+              <label for="validationServer01">Role</label>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="role" id="adminRole" value="admin" required>
+                <label class="form-check-label" for="adminRole">Admin</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="role" id="customerRole" value="customer" required>
+                <label class="form-check-label" for="customerRole">Customer</label>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-outline-light text-white d-flex justify-content-center">Register</button>
+          </form>
+        </div>
+    </div>
+</div>
+      </div>   
+    </div>
+</div>
+</body>
+</html>
